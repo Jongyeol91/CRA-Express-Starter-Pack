@@ -5,7 +5,7 @@ app.use(express.json());
 
 app.get("/api/employee", (req, res) => {
     const serverData = [
-        { id: 1, firstName: "jongyeol", lastName: "park"},
+        { id: 1, firstName: "jongyeol", lastName: "parks"},
         { id: 2, firstName: "seoyoung", lastName: "lee" },
         { id: 3, firstName: "jungkwon", lastName: "kim" },
     ]
